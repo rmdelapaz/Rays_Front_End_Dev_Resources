@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>HTML Cheatsheet from Rays Front End Web Dev Resources</title>
+</head>
+  <h1>HTML Cheat Sheet</h1>
+  <h2>Overview</h2>
+  <p>This section can just serve as introductory paragraph samples but does contain some useful information. Also, worth mentioning that this is a single simple html file without any CSS or Javascript. A web page without any decoration.</p>
+  <p>This is a sample of various html tags in action. If you are new to web development, and viewing this in a browser, you are seeing the result of the html, try viewing the source along side to reveal the HTML code that the browser is rendering</p>
+  <p>HTML stands for Hyper Text Markup Language, not a programming language but a simple markup language that "marks up" or "tags" content to identify it for the browser. The browser will then know how to treat/display that "element". That is how HTML calls it fully marked up item. An element. Tags are HTML markup around content or information. The whole unit together is an element.</p>
+  <p>Typically tags come in pairs, an opening tag that delineates the start of the content and an closing tag to define where it ends. Tags are comprised of less than symbol '<' followed by the tag name followed by a greater than '>'. For example &lt;p&gt would be an opening p tag. For those examining this in html code instead of the browser view, note that I had ot include the necessary html markup to create a less than  and a greater than for display rather than having the display be handled as actual paragraph markup. Majority of html tags require a closing tag. Closing tags have a / preceding the tag name (observe closing paragraph tags).</p>
+
+<h2>Heading Samples</h2>
+<p>First off are heading, 6 levels ranging for h1 to h6. Typically you would only have a single heading one on a page but we will break that rule for this cheatsheet. Do not worry about aesthetics (how it looks). For now, with HTML, you should only bew concerned with content. CSS is where you can chance what it looks like. HTML is all about content and identifying them appropriately for screen readers and automated tools.</p>
+<p>You'll see various examples of headings used throughout to organize and provide a logical hierarchy and structure.</p>
+<h1>This is a heading one</h1>
+<h2>This is a heading two</h2>
+<h3>This is a heading three</h3>
+<h4>This is a heading four</h4>
+<h5>This is a heading five</h5>
+<h6>This is a heading six</h6>
+<h2>More Paragraphs</h2>
+<p>Probably the most used tags in the world wide web would be the p tag. Majority of text content are usually marked up as paragrapsh with the simple p tag</p>
+<p>There will be a variety of paragraph examples used throughout this cheatsheet</p>
+<p>Things worth noting about HTML is that it ignores extra                             spaces
+
+
+
+
+
+  and returns. To actually see this, you would need to view the html in an editor or view the page source in the browser (which Google Chrome is usually used since it has web development tools that will be useful)
+</p>
+<h2>Lists</h2>
+<p>There are several types of lists available in HTML, some more common than others. We'll begin with the more common types of lists </p>
+<h3>Sample Unordered (bulleted) List</h3>
+<ul>
+  <li>red</li>
+  <li>green</li>
+  <li>blue</li>
+</ul>
+<p>The li tag makes a simple list item, the ul tag that contains all the li elements determine how the li items are displayed, see the same li items treated as ordered list elements below</p>
+<h3>Sample Ordered (numbered) List</h3>
+<ol>
+  <li>red</li>
+  <li>green</li>
+  <li>blue</li>
+</ol>
+<p>We can do more with lists by nesting, combining different types</p>
+<h3>Sample Mixed Lists</h3>
+<ul>
+  <li>red</li>
+  <ol>
+    <li>Crimson</li>
+    <li>Candy Apple</li>
+    <li>Cherry</li>
+  </ol>
+  <li>green</li>
+    <ol>
+      <li>Grass</li>
+      <li>Spring Leaves</li>
+      <li>The Hulk</li>
+    </ol>
+  <li>blue</li>
+    <ol>
+      <li>Sky</li>
+      <li>Cerulean</li>
+      <li>Velvet</li>
+    </ol>
+</ul>
+<p>We could make it even more complex by using tag attributes or CSS to define bullets and numbers but we are not going to do that with this sample</p>
+<p>For those interested, there are two other types of lists to consider, definiton lists and menus. Both have their uses and are worth looking into.</p>
+<h2>Introduction to Attributes and Links</h2>
+<p>New concept to introduce would be attributes since we will need thos in making working anchor hyper links</p>
+<p>Attributes are information included in the opening tag that affects behavior and display of the element content. For example, the img tag needs to have a src attribute that provides the information to the image location. Similarly the &lt;a&gt; (anchor tag) requires information, the destination where the link should take the browser. This is the href attribute.</p>
+<p>Here is a <a>sample link</a> that has no destination</p>
+<p>This link will take you to new window for <a href="http://www.google.com" target="new">Google</a>. This is because of the href with the google address and the target attribute assigned the valued new, telling the browser to open in a new tab. If you are new, make a web page with your favorite links.</p>
+<h2>Text emphasis with <code>em</code> and <code>strong</code></h2>
+<p>Before we discuss em and strong, worth mentioning how tags have built in display behaviors. These default display behaviors can be modified. The heading tags you saw in the beginning have the default display behavior of block style. That means they don't like to share the display line with anything else. If placed within content, it will start on a new line and have following text start on the next line. This is display block. The other most common disply behavior is inline which as it's name implies, stays inline. An example of inline we've seen so far is the anchor tag. You can have anchor tags around an individual word or letter inside of other content and the display of it will be inline along the other content.</p>
+<h3>Sample of emphasis and strong</h3>
+<p>The em tag is short for <em>emphasis text with em tag</em> which displays inline in italic text while when we use the strong tag, what it does is <strong>strong tag applied</strong> makes the text appear bold. Modern web development prefers the term emphasis and strong for accessibility reasons. Old ways had i and b tags which may still function but should be avoided</p>
+<h2>Tags without closing tags</h2>
+<p>The majority of elements will have an opening tag and a closing tag. Some worth mentioning is the line break tag and the image tag. Instead of having a closing tag with a slash, you include the slash at the end of the tag.</p>
+<h3>Line Break &lt;br /&gt;</h3>
+<p>HTML line breaks are necessary for web content because browsers will ignore extra returns and spaces. To see this difference, make sure to view the source code</p>
+<h4>Example of paragraphs without html line breaks.</h4>
+<p>
+  Paragraph one
+  Pargraph two
+  Third Paragraph
+</p>
+<h4>One parargraph with html line breaks</h4>
+<p>Line one<br />
+Line two<br />
+line three<br /></p>
+<h2>Tags to further organize your content</h2>
+<h3>div and span tag samples</h3>
+<div>
+<p>There are tags to such as div and span that you can use to group similar elements and separate different elements as necessary. Worth noting, div is a block style and span is inline. Use accordingly. Typically, div is used for larger pieces of content while span would be for smaller portions.</p>
+<div><p>Further uses of the div tag in conjuntion with other attributes allow you to identify uniquely or classify into a group various elements. More on that later, especially when we get into CSS and JavaScript</p>
+  </div>
+<p>Hopefully by now, creating and using tags to organize your content is easy, putting what you need in between appropriate tags. The challenge will be when do I need this tag over that tag. This comes with practice and experience. Some reading will help but doing it will be much better. Without CSS, you will not see anything <span>displaying differently</span> with the div tags and <span>span is applied to this text</span> tags. View this page source to see the tags.</p>
+</div>
+</body>
+</html>
