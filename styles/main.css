@@ -48,6 +48,7 @@ table {
 }
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 110%;
   background-color: lightgray;
   margin-left: 30px;
   margin-right: 40px;
@@ -66,7 +67,8 @@ margin-left: 20px;}
 h3{
  
   font-size: large;
-  margin-left: 30px;}
+  margin-left: 30px;
+margin-right: 20px;}
 
 p {
   margin-top: 10px;
