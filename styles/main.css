@@ -167,3 +167,8 @@ p {
   margin-bottom: 5px;
   margin-right: 40px;
 }
+
+code {
+  margin-left: 45px;
+  font-family: "Courier New", Courier, monospace;
+}
