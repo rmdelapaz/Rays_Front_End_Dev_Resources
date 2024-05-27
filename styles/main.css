@@ -147,6 +147,8 @@ h3 {
 
 h1 {
   font-size: xx-large;
+  text-align: center;
+  border-bottom-width: 50px black solid;
 }
 
 h2 {
