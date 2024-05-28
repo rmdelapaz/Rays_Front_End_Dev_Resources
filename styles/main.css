@@ -130,6 +130,7 @@ table {
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
   line-height: 110%;
   background-color: lightgray;
   margin-left: 30px;
@@ -173,4 +174,8 @@ p {
 code {
   margin-left: 45px;
   font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+  text-align: right;
 }
