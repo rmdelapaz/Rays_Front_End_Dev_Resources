@@ -150,6 +150,7 @@ h1 {
   font-size: xx-large;
   text-align: center;
   border-bottom-width: 50px black solid;
+  line-height: 150%;
 }
 
 h2 {
@@ -174,9 +175,8 @@ p {
 code {
   margin-left: 55px;
   font-family: "Courier New", Courier, monospace;
-		background-color: rgb(69, 74, 69);
-	color:rgb(255, 255, 255)
-
+  background-color: rgb(69, 74, 69);
+  color: rgb(255, 255, 255);
 }
 
 footer {
