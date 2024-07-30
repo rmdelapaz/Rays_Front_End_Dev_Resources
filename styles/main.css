@@ -182,3 +182,14 @@ code {
 footer {
   text-align: right;
 }
+
+dl {
+  margin-left: 45px;
+}
+
+dd
+{
+ margin-left: 25px;
+ padding-bottom: 10px;
+
+}
