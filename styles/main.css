@@ -132,18 +132,20 @@ body {
     "Lucida Sans", Arial, sans-serif;
   font-size: medium;
   line-height: 110%;
-  background-color: lightgray;
+  background-color: rgb(88, 86, 90);
   margin-left: 30px;
   margin-right: 40px;
+  color: lightgray;
 }
 h1,
 h2,
-h3 {
+h3, h4 {
   font-weight: bolder;
-  background-color: black;
+  background-color: rgb(85, 154, 205);
   color: white;
   margin: 5px;
   padding: 5px;
+  line-height: 120%;
 }
 
 h1 {
@@ -165,6 +167,11 @@ h3 {
   margin-right: 30px;
 }
 
+h4 {margin-left: 35px;
+margin-right: 35px;}
+table {
+  margin-left: 45px;
+}
 p {
   margin-top: 10px;
   margin-left: 45px;
@@ -172,19 +179,53 @@ p {
   margin-right: 40px;
 }
 
-code {
-  margin-left: 55px;
+p code {
+  margin-left: 0px;
+}
+
+pre code {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h3 code { margin-left: 0px;}
+li code { margin-left: 0px; margin-right: 0px;}
+code, pre {
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
   font-family: "Courier New", Courier, monospace;
-  background-color: rgb(69, 74, 69);
-  color: rgb(255, 255, 255);
+  background-color: rgb(48, 56, 48);
+  color: rgb(187, 180, 84);
+  padding-top: 5px;
+  padding-left: 2px;
+  line-height: 150%;
+
+}
+
+p code {
+ margin-right: 0;
 }
 
 footer {
   text-align: right;
 }
+ol li {
+  padding-top: 10px;
+  list-style-type:decimal ;
+}
 
-dl {
+a {color: rgb(85, 154, 205);}
+ul li {
+  list-style-type: disc;
+}
+dl, ol, ul, li {
   margin-left: 45px;
+  padding-top: 5px;
+}
+
+ul li ul li {
+  margin-left: 0px;
 }
 
 dd
@@ -193,3 +234,5 @@ dd
  padding-bottom: 10px;
 
 }
+img {background-color: white;
+width:100%}
